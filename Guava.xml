@@ -1,0 +1,187 @@
+<templateSet group="Guava">
+  <template name="ilof" value="com.google.common.collect.ImmutableList.of($ARGS$)" description="ImmutableList.of(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ilcp" value="com.google.common.collect.ImmutableList.copyOf($ARGS$)" description="ImmutableList.copyOf(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="iterableVariable()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ilb" value="com.google.common.collect.ImmutableList.builder()" description="ImmutableList.builder()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="isb" value="com.google.common.collect.ImmutableSet.builder()" description="ImmutableSet.builder()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="iscp" value="com.google.common.collect.ImmutableSet.copyOf($ARGS$)" description="ImmutableSet.copyOf(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="iterableVariable()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="isof" value="com.google.common.collect.ImmutableSet.of($ARGS$)" description="ImmutableSet.of(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="imof" value="com.google.common.collect.ImmutableMap.of($ARGS$)" description="ImmutableMap.of(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="imcp" value="com.google.common.collect.ImmutableMap.copyOf($ARGS$)" description="ImmutableMap.copyOf(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="imb" value="com.google.common.collect.ImmutableMap.builder()" description="ImmutableMap.builder()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="immb" value="com.google.common.collect.ImmutableMultimap.builder()" description="ImmutableMultimap.builder()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="immcp" value="com.google.common.collect.ImmutableMultimap.copyOf($ARGS$)" description="ImmutableMultimap.copyOf(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="immof" value="com.google.common.collect.ImmutableMultimap.of($ARGS$)" description="ImmutableMultimap.of(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ismmof" value="com.google.common.collect.ImmutableSetMultimap.of($ARGS$)" description="ImmutableSetMultimap.of(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ismmcp" value="com.google.common.collect.ImmutableSetMultimap.copyOf($ARGS$)" description="ImmutableSetMultimap.copyOf(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ismmb" value="com.google.common.collect.ImmutableSetMultimap.builder()" description="ImmutableSetMultimap.builder()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ilmmof" value="com.google.common.collect.ImmutableListMultimap.of($ARGS$)" description="ImmutableListMultimap.of(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ilmmcp" value="com.google.common.collect.ImmutableListMultimap.copyOf($ARGS$)" description="ImmutableListMultimap.copyOf(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ilmmb" value="com.google.common.collect.ImmutableListMultimap.builder()" description="ImmutableListMultimap.builder()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="imsof" value="com.google.common.collect.ImmutableMultiset.of($ARGS$)" description="ImmutableMultiset.of(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="imscp" value="com.google.common.collect.ImmutableMultiset.copyOf($ARGS$)" description="ImmutableMultiset.copyOf(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="iterableVariable()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="imsb" value="com.google.common.collect.ImmutableMultiset.builder()" description="ImmutableMultiset.builder()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="til" value="com.google.common.collect.ImmutableList.toImmutableList()" description="toImmutableList" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tim" value="com.google.common.collect.ImmutableMap.toImmutableMap($ARG1$, $ARG2$)" description="toImmutableMap" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="ARG1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARG2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tis" value="com.google.common.collect.ImmutableSet.toImmutableSet()" description="toImmutableSet" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tismm" value="com.google.common.collect.ImmutableSetMultimap.toImmutableSetMultimap($ARG1$, $ARG2$)" description="toImmutableSetMultimap" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="ARG1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARG2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tilmm" value="com.google.common.collect.ImmutableListMultimap.toImmutableListMultimap($ARG1$, $ARG2$)" description="toImmutableListMultimap" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="ARG1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARG2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tims" value="com.google.common.collect.ImmutableMultiset.toImmutableMultiset()" description="toImmutableMultiset" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="imf" value="com.google.common.util.concurrent.Futures.immediateFuture($ARG$)" description="Futures.immediateFuture" toReformat="false" toShortenFQNames="true">
+    <variable name="ARG" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="imff" value="com.google.common.util.concurrent.Futures.immediateFailedFuture($ARG$)" description="Futures.immediateFailedFuture" toReformat="false" toShortenFQNames="true">
+    <variable name="ARG" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ca" value="com.google.common.base.Preconditions.checkArgument($COND$)" description="Preconditions.checkArgument" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cnn" value="com.google.common.base.Preconditions.checkNotNull($VAR$)" description="Preconditions.checkNotNull" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cs" value="com.google.common.base.Preconditions.checkState($COND$)" description="Preconditions.checkState" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
